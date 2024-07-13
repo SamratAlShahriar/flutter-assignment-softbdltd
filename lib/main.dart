@@ -15,6 +15,7 @@ class App extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
+    Get.locale = Locale('bn');
     return ScreenUtilInit(
       designSize: const Size(375, 812),
       minTextAdapt: true,
@@ -23,6 +24,7 @@ class App extends StatelessWidget {
       child: GetMaterialApp(
         debugShowCheckedModeBanner: false,
         getPages: AppRoute.pages,
+
         initialRoute: AppRoute.dashboardPage,
         title: 'Flutter Assignment - Samrat Al Shahriar',
         locale: Get.locale,
