@@ -4,11 +4,11 @@ import 'package:flutter/widgets.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutterassignment/core/config/theme/app_colors.dart';
 import 'package:flutterassignment/presentation/screen/dashboard/controller/dashboard_controller.dart';
-import 'package:flutterassignment/presentation/screen/dashboard/page/timeline.dart';
+import 'package:flutterassignment/presentation/screen/timeline/page/timeline.dart';
 import 'package:gap/gap.dart';
 import 'package:get/get.dart';
 
-import 'home.dart';
+import '../../home/page/home.dart';
 
 class DashboardScreen extends StatelessWidget {
   const DashboardScreen({super.key});
