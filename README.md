@@ -11,4 +11,6 @@
 ## app operations (video)
 <img src="screenshots/video.gif" width="256"/>
 
+![video](screenshots/video.gif)
+
 
